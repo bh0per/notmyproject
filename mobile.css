@@ -1,4 +1,15 @@
 @media (max-width: 760px) {
+	.step-progress { margin: -7px 0 17px; }
+	.field-row > .gender-field { margin-top: 16px; }
+	.gender-field .segmented { height: 54px; }
+	.gender-option { border-color: rgba(16,20,23,.15); border-radius: 8px 0 0 8px; background: #fafbf7; }
+	.gender-option + .gender-option { border-radius: 0 8px 8px 0; }
+	.step-actions { gap: 8px; margin-top: 18px; }
+	.step-actions .submit-button { position: static; min-height: 60px; border-radius: 10px; box-shadow: none; padding: 0 15px; font-size: 13px; }
+	.step-button { min-height: 60px; padding: 0 15px; border-radius: 10px; font-size: 13px; }
+	.step-back { flex-basis: 112px; }
+	.session-meta { line-height: 1.5 !important; }
+	.workout-item strong { line-height: 1.35; }
 	.app-shell { padding: 0 20px; }.topbar { height: 72px; }.status { font-size: 8px; }.brand { font-size: 14px; }.hero { min-height: 0; display: block; }.hero-copy { padding: 70px 0 35px; }.hero h1 { font-size: clamp(3.6rem, 18vw, 6rem); }.hero-text { margin: 27px 0 35px; }.hero-stats { gap: 22px; }.hero-orbit { width: 78vw; height: 78vw; margin: 20px auto 60px; }.orbit-core strong { font-size: 65px; }.planner-section { padding: 55px 0 65px; }.section-heading { display: block; margin-bottom: 30px; }.section-heading h2 { margin-top: 8px; }.step-count { margin-top: 23px; }.form-grid { display: block; }.form-card { margin-bottom: 14px; padding: 21px 17px; }.card-wide { display: block; }.field-row { display: block; }.field-row label + label { margin-top: 18px; }.schedule-grid { display: block; }.schedule-grid label { display: block; margin-bottom: 30px; }.schedule-grid label:last-child { margin-bottom: 0; }.goal-grid { gap: 7px; }.goal { min-height: 94px; padding: 10px; }.goal b { font-size: 12px; }.submit-button { min-height: 62px; font-size: 14px; padding: 0 18px; }.result-panel { display: block; padding: 40px 24px; }.result-metrics { margin-top: 42px; gap: 10px; }.result-metrics div { padding-left: 12px; }.result-metrics strong { font-size: 2.3rem; }.result-metrics div + div strong { font-size: 18px; } footer { font-size: 8px; padding: 28px 0; }
 }
 .plan-dashboard { margin-top: 35px; padding-top: 28px; }.dashboard-heading { display: block; }.completion { display: block; margin-top: 15px; }.week-tabs { overflow-x: auto; padding-bottom: 3px; }.week-tab { min-width: 49px; }.workout-list { display: block; }.workout-item + .workout-item { margin-top: 8px; }.habit-strip { align-items: flex-start; }
